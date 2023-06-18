@@ -196,10 +196,9 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl.custom \
     fastbootd
 
-# TODO
 # Filesystem
-# PRODUCT_PACKAGES += \
-#     fs_config_files
+PRODUCT_PACKAGES += \
+    fs_config_files
 
 # Fingerprint
 PRODUCT_PACKAGES += \
