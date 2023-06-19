@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/CPH2381/CPH2381-vendor.mk)
-
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
@@ -525,4 +522,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit the proprietary files
-include vendor/oneplus/CPH2381/CPH2381-vendor.mk
+#include vendor/oneplus/CPH2381/CPH2381-vendor.mk
