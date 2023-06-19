@@ -44,33 +44,19 @@ PRODUCT_PACKAGES += \
     
 # Audio
 PRODUCT_PACKAGES += \
-    libvolumelistener \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
-    libqcompostprocbundle
-
-PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
     android.hardware.audio@6.0-impl \
     audioadsprpcd \
-    audio.primary.holi \
     audio.r_submix.default \
     audio.usb.default \
     libaudiopreprocessing \
-    libbatterylistener \
     libbundlewrapper \
-    libcomprcapture \
     libdownmix \
     libdynproc \
     libeffectproxy \
-    libexthwplugin \
-    libhdmiedid \
-    libhfp \
     libldnhncr \
     libreverbwrapper \
-    libsndmonitor \
-    libspkrprot \
     libvisualizer
 
 # Audio Configs
@@ -85,12 +71,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
-    
-# AVB
-PRODUCT_PACKAGES += \
-    q-gsi.avbpubkey \
-    r-gsi.avbpubkey \
-    s-gsi.avbpubkey
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -168,7 +148,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libtinyxml \
     memtrack.default \
@@ -283,19 +262,6 @@ PRODUCT_PACKAGES += \
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
-
-# OMX
-PRODUCT_PACKAGES += \
-    init.qti.media.sh \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
