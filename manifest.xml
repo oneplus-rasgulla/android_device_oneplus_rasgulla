@@ -28,24 +28,11 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.audio.effect</name>
+        <name>vendor.oplus.hardware.subsys_radio</name>
         <transport>hwbinder</transport>
-        <version>6.0</version>
-        <interface>
-            <name>IEffectsFactory</name>
-            <instance>default</instance>
-        </interface>
+        <fqname>@1.0::ISubsysRadio/slot1</fqname>
+        <fqname>@1.0::ISubsysRadio/slot2</fqname>
     </hal>
-    <hal format="hidl">
-        <name>android.hardware.audio.effect</name>
-        <transport>hwbinder</transport>
-        <version>6.0</version>
-        <interface>
-            <name>IEffectsFactory</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    
     
     
     <hal format="hidl">
