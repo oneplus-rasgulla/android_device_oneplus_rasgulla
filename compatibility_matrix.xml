@@ -3,7 +3,7 @@
     Input:
         compatibility_matrix.xml
 -->
-<compatibility-matrix version="2.0" type="device">
+<compatibility-matrix version="1.0" type="device">
  <kernel version="5.4.210-qgki"/>
     <hal format="hidl" optional="false">
         <name>android.frameworks.schedulerservice</name>
