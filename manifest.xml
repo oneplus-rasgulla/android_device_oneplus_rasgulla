@@ -15,9 +15,9 @@
         <interface>
             <name>IEffectsFactory</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
+        </interface> 
+      </hal>
+     <hal format="hidl">
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -25,7 +25,13 @@
             <name>IBluetoothHci</name>
             <instance>default</instance>
         </interface>
-    </hal>
+    </hal>   
+   
+
+
+
+
+
     <hal format="hidl">
         <name>android.hardware.bluetooth.audio</name>
         <transport>hwbinder</transport>
