@@ -1622,7 +1622,7 @@
     <hal format="hidl">
         <name>android.hardware.wifi.supplicant</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.2-4</version>
         <interface>
             <name>ISupplicant</name>
             <instance>default</instance>
