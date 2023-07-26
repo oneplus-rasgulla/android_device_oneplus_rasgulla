@@ -97,8 +97,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Boot Control
 PRODUCT_PACKAGES += \
-#    android.hardware.boot@1.1-impl-qti \
-#    android.hardware.boot@1.1-impl-qti.recovery \
+    android.hardware.boot@1.1-impl-qti \
+    android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service
 
 # Camera
