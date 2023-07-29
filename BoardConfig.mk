@@ -76,6 +76,9 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Filesystem
 # TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Fingerprint
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
+
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 4.0
