@@ -88,12 +88,10 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
-
-
-# TODO
 # Init
-# TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_oneplus_CPH2381
-# TARGET_RECOVERY_DEVICE_MODULES := init_oneplus_CPH2381
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
+
+
 
 # Media
 TARGET_USES_ION := true
