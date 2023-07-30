@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oneplus/CPH2381
+DEVICE_PATH := device/oneplus/rasgulla
 
 # A/B
 AB_OTA_UPDATER := true
@@ -53,7 +53,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := CPH2381
+TARGET_OTA_ASSERT_DEVICE := rasgulla
 
 # Build Broken
 BUILD_BROKEN_DUP_RULES := true
@@ -241,4 +241,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
-# include vendor/oneplus/CPH2381/BoardConfigVendor.mk
+# include vendor/oneplus/rasgulla/BoardConfigVendor.mk
