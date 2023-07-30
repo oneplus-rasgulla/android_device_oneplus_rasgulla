@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_CPH2381.mk
+    $(LOCAL_DIR)/lineage_rasgulla.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_rasgulla-user \
