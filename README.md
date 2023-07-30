@@ -3,7 +3,7 @@ Copyright (C) 2023 The LineageOS Project
 Device configuration for OnePlus Nord CE 2 Lite 5G
 =========================================
 
-The OnePlus Nord CE 2 Lite 5G (codenamed _"CPH2381"_) is a mid range smartphone from Oneplus.
+The OnePlus Nord CE 2 Lite 5G (codenamed _"rasgulla"_) is a mid range smartphone from Oneplus.
 
 OnePlus Nord CE 2 Lite 5G was announced and released in April 2022.
 
