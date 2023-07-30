@@ -8,15 +8,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from CPH2381 device
-$(call inherit-product, device/oneplus/CPH2381/device.mk)
+# Inherit from rasgulla device
+$(call inherit-product, device/oneplus/rasgulla/device.mk)
 
 # Inherit some common LineageOS Stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_CPH2381
-PRODUCT_DEVICE := CPH2381
+PRODUCT_NAME := lineage_rasgulla
+PRODUCT_DEVICE := rasgulla
 PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus
 
